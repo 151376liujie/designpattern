@@ -1,4 +1,4 @@
-package com.java.learn.builder;
+package com.jonnyliu.proj.designpattern.builder;
 
 import java.util.Arrays;
 

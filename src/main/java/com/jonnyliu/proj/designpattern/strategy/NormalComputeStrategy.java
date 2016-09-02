@@ -6,7 +6,7 @@ package com.jonnyliu.proj.designpattern.strategy;
  * User: jonnyliu@tcl.com <br/>
  * Date: on 2016-09-02 11:28.
  */
-public class NormalCompute implements ComputeStrategy {
+public class NormalComputeStrategy implements ComputeStrategy {
 
     public double computePrice(double oldPrice) {
         return oldPrice;

@@ -1,4 +1,4 @@
-package com.java.learn.singleton.ext;
+package com.jonnyliu.proj.designpattern.singleton.ext;
 
 import java.util.List;
 

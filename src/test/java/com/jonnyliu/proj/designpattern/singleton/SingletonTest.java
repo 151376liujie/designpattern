@@ -1,4 +1,4 @@
-package com.java.learn.singleton;
+package com.jonnyliu.proj.designpattern.singleton;
 
 import java.util.ArrayList;
 import java.util.List;

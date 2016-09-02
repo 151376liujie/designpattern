@@ -1,4 +1,4 @@
-package com.java.learn.factorymethod;
+package com.jonnyliu.proj.designpattern.factorymethod;
 
 
 public class HumanFactory extends AbstractHumanFactory {

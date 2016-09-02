@@ -1,4 +1,4 @@
-package com.java.learn.builder;
+package com.jonnyliu.proj.designpattern.builder;
 
 public class BWMCar extends Car {
 

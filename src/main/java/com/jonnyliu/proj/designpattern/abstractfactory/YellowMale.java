@@ -1,4 +1,4 @@
-package com.java.learn.abstractfactory;
+package com.jonnyliu.proj.designpattern.abstractfactory;
 
 public class YellowMale extends YellowMan {
 
