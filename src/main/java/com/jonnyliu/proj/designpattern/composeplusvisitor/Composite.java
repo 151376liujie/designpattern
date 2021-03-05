@@ -44,6 +44,7 @@ public class Composite extends BaseComponent {
             //访问当前节点
             visitor.visit(this);
             for (BaseComponent component : this.getComponents()) {
+                //访问子节点
                 component.accept(visitor);
             }
         }
