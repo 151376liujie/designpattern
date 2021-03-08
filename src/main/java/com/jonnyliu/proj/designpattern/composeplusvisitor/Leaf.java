@@ -1,5 +1,6 @@
 package com.jonnyliu.proj.designpattern.composeplusvisitor;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -15,23 +16,14 @@ public class Leaf extends BaseComponent {
 
 
     @Override
-    void operation() {
-        System.out.println(String.format("执行%s的业务方法", this.name));
-    }
-
-    @Override
     void addComposite(BaseComponent component) {
         throw new UnsupportedOperationException();
     }
 
-    @Override
-    void removeComposite(BaseComponent component) {
-        throw new UnsupportedOperationException();
-    }
 
     @Override
     List<BaseComponent> getComponents() {
-        throw new UnsupportedOperationException();
+        return Collections.emptyList();
     }
 
     @Override

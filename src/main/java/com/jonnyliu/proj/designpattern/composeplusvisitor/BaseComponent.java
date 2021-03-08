@@ -16,10 +16,6 @@ public abstract class BaseComponent {
         this.name = name;
     }
 
-    /**
-     * 执行的业务方法
-     */
-    abstract void operation();
 
     /**
      * 添加组件
@@ -28,12 +24,6 @@ public abstract class BaseComponent {
      */
     abstract void addComposite(BaseComponent component);
 
-    /**
-     * 删除组件
-     *
-     * @param component
-     */
-    abstract void removeComposite(BaseComponent component);
 
     /**
      * 获取组件列表
