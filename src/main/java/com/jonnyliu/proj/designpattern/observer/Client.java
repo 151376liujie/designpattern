@@ -7,20 +7,9 @@ package com.jonnyliu.proj.designpattern.observer;
 public class Client {
 
     public static void main(String[] args) {
-        Observable observable = new Observable() {
-            public void update(int score) {
-                System.out.println("score变化了。。。" +score );
-            }
-        };
-
-        Observable observable2 = new Observable() {
-            public void update(int score) {
-                System.out.println("score变化了。。。" +score );
-            }
-        };
-        Target target = new Target();
-        target.registerObserver(observable);
-        target.registerObserver(observable2);
-        target.setScore(38);
+        Topic topic = new Topic();
+        topic.addObserver(new TopicObserver());
+        topic.sendMessage("hello,world");
+        topic.sendMessage("happy new year");
     }
 }
